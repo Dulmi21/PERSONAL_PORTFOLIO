@@ -23,8 +23,10 @@
 }
 
 .sub-title{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 600px;
+
+    color: rgb(108, 5, 5);
 }
 
 .tab-titles{
