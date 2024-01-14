@@ -1,0 +1,19 @@
+#section4{
+    background-color: aliceblue;
+    display: flex;
+
+
+    height: 300px;
+
+}
+
+.contact-information{
+    flex:1;
+
+
+}
+
+.contact-form{
+    flex: 1;
+
+}

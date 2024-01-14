@@ -1,0 +1,81 @@
+#section2{
+    display: flex;
+    
+    
+
+    margin-top: 40px;
+    height: fit-content;
+
+    font-size: 32px;
+
+     
+    padding: 50px;
+
+     
+
+  
+
+
+}
+
+.face{
+    flex: 1;
+    padding: 50px; 
+
+    background-color: rgb(128, 128, 130);
+}
+
+.aboutMe{
+    padding-left: 60px;
+    flex: 3;
+    justify-content: center;
+   
+    display: flex;
+    flex-direction: column;
+
+    color: #000000;
+    font-weight: bolder;
+    
+     
+    
+   /* background-color: rgb(97, 203, 200);*/
+
+}
+
+.segment1{
+    height: fit-content;
+    display: flex;
+    vertical-align: bottom;
+
+    
+
+}
+
+.segment2{
+    height: fit-content;
+   display: flex;
+    
+    
+}
+
+.segment3{
+    height: fit-content;
+    display: flex;
+    
+}
+
+.point{
+    width:30px;
+    height: 30px;
+    display: inline-block;
+    
+    margin-right: 20px;
+
+    margin-top: 35px;
+
+    
+}
+
+.description{
+    display: inline-block;
+}
