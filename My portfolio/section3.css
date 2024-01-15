@@ -90,7 +90,7 @@
 
     margin-top: 50px;
     margin-bottom: 0;
-    height: 40px;
+    height: fit-content
 }
 
 .topic-education{
@@ -98,6 +98,8 @@
     color: azure;
     margin: 0;
 
-    padding: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
