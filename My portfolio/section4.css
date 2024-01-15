@@ -17,9 +17,10 @@
 
 .contact-information{
     flex:1;
-  /*  background-image: url(images/background-2.jpeg);
+    /*background-image: url(images/background-2.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover; */
+    background-color: whitesmoke;
 
      
    
@@ -27,6 +28,9 @@
     padding-left: 60px;
     margin-right: 50px;
     border-left: solid black ;
+
+    font-weight: 900;
+    background-blend-mode: color-burn;
 
 
 
