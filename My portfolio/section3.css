@@ -55,7 +55,7 @@
 
     text-decoration: underline;
 
-    font-size: 15px;
+    font-size: 25px;
 
 }
 
@@ -66,14 +66,14 @@
 
     font-style: italic;
 
-    font-size: 15px;
+    font-size: 25px;
      
 
 }
 
 .details{
     flex: 1;
-    font-size: 15px;
+    font-size: 20px;
   
 }
 
