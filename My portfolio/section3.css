@@ -53,6 +53,8 @@
 
     text-decoration: underline;
 
+    font-size: 30px;
+
 }
 
 .year{
@@ -61,12 +63,14 @@
     margin-bottom: 20px;
 
     font-style: italic;
+    font-size: 30px;
      
 
 }
 
 .details{
     flex: 1;
+    font-size: 30px;
 
 }
 
