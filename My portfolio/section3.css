@@ -1,5 +1,5 @@
 #section3{
-    background-color: rgb(243, 245, 245);
+    background-color: rgb(7, 151, 151);
     display: flex;
    
 
@@ -55,7 +55,7 @@
 
     text-decoration: underline;
 
-    font-size: 30px;
+    font-size: 15px;
 
 }
 
@@ -65,12 +65,15 @@
     margin-bottom: 20px;
 
     font-style: italic;
+
+    font-size: 15px;
      
 
 }
 
 .details{
     flex: 1;
+    font-size: 15px;
   
 }
 
