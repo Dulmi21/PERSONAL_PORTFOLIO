@@ -30,7 +30,7 @@
 
     border-right:solid rgb(113, 40, 40);
 
-    inline-size: 2px;
+     
 
     
 
@@ -73,7 +73,9 @@
 
 .details{
     flex: 1;
-    font-size: 20px;
+    font-size: 30px;
+
+    inline-size: 2px;
   
 }
 
