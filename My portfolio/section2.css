@@ -3,13 +3,16 @@
     
     
 
-    margin-top: 40px;
+     
     height: fit-content;
 
     font-size: 32px;
 
      
-    padding: 50px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+
+
 
      
 
@@ -20,7 +23,8 @@
 
 .face{
     flex: 1;
-    padding: 50px; 
+    padding: 50px;
+    margin-right: 50px; 
 
     background-color: rgb(128, 128, 130);
 }
