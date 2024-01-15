@@ -90,10 +90,11 @@
 
     margin-top: 50px;
     margin-bottom: 0;
+    height: 40px;
 }
 
 .topic-education{
-    font-size: 40px;
+    font-size: 30px;
     color: azure;
     margin: 0;
 

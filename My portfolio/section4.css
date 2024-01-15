@@ -120,10 +120,12 @@
 
     margin-top: 50px;
     margin-bottom: 0;
+
+    height: 40px;
 }
 
 .topic-contact{
-    font-size: 40px;
+    font-size: 30px;
     color: azure;
     margin: 0;
 
