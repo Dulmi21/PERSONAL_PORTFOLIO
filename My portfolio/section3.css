@@ -1,5 +1,5 @@
 #section3{
-    background-color: rgb(7, 151, 151);
+    background-color: rgb(245, 245, 245);
     display: flex;
    
 
@@ -28,7 +28,7 @@
 
     line-height: 50px;
 
-    border-right:solid black;
+    border-right:solid rgb(113, 40, 40);
 
     inline-size: 2px;
 
