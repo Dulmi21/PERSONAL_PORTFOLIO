@@ -117,13 +117,12 @@
 
 
 #section4-topic{
-    background-color: rgb(126, 124, 124);
-   
-
-    margin-top: 50px;
-    margin-bottom: 0;
-
-    height: fit-content;
+     background-color: #7e7c7c;
+    margin: 50px 0 40px;
+    padding: 10px 50px;
+    color: azure;
+    font-size: 30px;
+    text-align: center;
 }
 
 .topic-contact{

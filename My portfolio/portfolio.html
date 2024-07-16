@@ -19,26 +19,29 @@
   </head>
   <body>
     <section id="section1">
-      <!-- ,header section-->
+      <!-- Header section -->
+      <header class="heading">
+          <!-- Your header content -->
+           <div class="logos">
+            <img class="logo" src="images/uomLogo.png" />
+            <img class="logo" src="images/cimaLogo.jpeg" />
+            <img class="logo" src="images/deviLogo.png" />
 
-      <img class="logo" src="images/uomLogo.png" />
-      <img class="logo" src="images/cimaLogo.jpeg" />
-      <img class="logo" src="images/deviLogo.png" />
-
-      <div class="header">
-        <button class="header-button">
-          <a href="#section2" class="abc">About</a>
-        </button>
-
-        <button class="header-button">
-          <a href="#section3-topic"  class="abc" >Education</a>
-        </button>
-
-        <button class="header-button">
-          <a href="#section4-topic"  class="abc">Contact Info</a>
-        </button>
-      </div>
-    </section>
+           </div>
+         
+          <div class="header">
+              <button class="header-button">
+                  <a href="#section2" class="abc">About</a>
+              </button>
+              <button class="header-button">
+                  <a href="#section3-topic" class="abc">Education</a>
+              </button>
+              <button class="header-button">
+                  <a href="#section4-topic" class="abc">Contact Info</a>
+              </button>
+          </div>
+      </header>
+  </section>
 
     <section id="section2">
       <!--About section-->
@@ -78,7 +81,7 @@
         <img class="school-logo" src="images/uomLogo.png" />
         <div class="name">University of Moratuwa</div>
         <div class="year">2022-present</div>
-        <div class="details">
+        <div class="details" className="">
           Department of Computer Science <br />
           and Engineering<br />(Data Science Stream)
         </div>
@@ -183,5 +186,30 @@
         </button>
       </div>
     </section>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          let lastScrollTop = 0;
+          const navbar = document.querySelector('.heading');
+          
+          window.addEventListener('scroll', function () {
+              const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+  
+              if (currentScroll > lastScrollTop) {
+                  // Scrolling down
+                  if (window.innerWidth > 768) {
+                      navbar.classList.add('hidden-nav');
+                  }
+              } else {
+                  // Scrolling up
+                  navbar.classList.remove('hidden-nav');
+              }
+              lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+          }, false);
+      });
+
+     
+  </script>
   </body>
 </html>

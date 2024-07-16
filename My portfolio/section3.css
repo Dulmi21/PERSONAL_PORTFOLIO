@@ -1,4 +1,4 @@
-#section3{
+/* #section3{
     background-color: rgb(245, 245, 245);
     display: flex;
    
@@ -23,7 +23,7 @@
 
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    
     padding: 50px;
     
 
@@ -43,6 +43,7 @@
 .school-logo{
     width: 150px;
     margin-bottom: 50px;
+    display: inline;
 
     border: solid black;
 
@@ -57,6 +58,7 @@
     text-decoration: underline;
 
     font-size: 25px;
+    display: inline;
 
 }
 
@@ -84,8 +86,7 @@
 
 
 
-/*Topic   */
-
+ 
 
 #section3-topic{
     background-color: rgb(126, 124, 124);
@@ -105,4 +106,66 @@
     padding-top: 10px;
     padding-bottom: 10px;
 
+} */
+
+#section3 {
+    background-color: rgba(245, 245, 245, 0.9); /* Added transparency */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin-bottom: 0;
+    width: 100%;
+    height: auto;
+    border-top: 2px solid #712828;
+    border-bottom: 2px solid #712828;
+}
+
+.schools {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    line-height: 1.6;
+    border-right: 2px solid #712828;
+    text-align: center;
+}
+
+.schools:last-child {
+    border-right: none;
+}
+
+.school-logo {
+    width: 100px;
+    margin-bottom: 20px;
+    display: block;
+    border: none;
+}
+
+.name {
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.year {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.details {
+    font-size: 18px;
+}
+
+#section3-topic {
+    background-color: #7e7c7c;
+    margin: 50px 0 40px;
+    padding: 10px 50px;
+    color: azure;
+    font-size: 30px;
+    text-align: center;
 }
